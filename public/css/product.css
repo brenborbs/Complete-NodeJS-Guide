@@ -10,7 +10,7 @@ main {
 .main-header {
   width: 100%;
   height: 3.5rem;
-  background-color: #dbc441;
+  background-color: #dbc441; 
   padding: 0 1.5rem;
 }
 
@@ -55,26 +55,28 @@ main {
     width: 100%;
 }
 
-.form-control {
-  margin: 1rem 0;
+.product-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
 }
 
-.form-control input {
-  border: 1px solid black;
-  font: inherit;
-  border-radius: 2px;
-}
-button {
-  font: inherit;
-  border: 1px solid purple;
-  border-radius: 3px;
-  background: white;
-  color: #dbc441;
-  cursor: pointer;
+.product-item {
+  width: 20rem;
+  max-width: 95%;
 }
 
-button:hover,
-button:active {
-  background-color: purple;
-  color: white;
+.product__title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.product__price {
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 0.5rem;
+}
+
+.product__description {
+  text-align: center;
 }
