@@ -21,3 +21,5 @@ Note: Removed mongodb atlas permission keys at database.js file inside utils fol
 Made env variables and used local mongodb for the rest of the app.
 
 8th commit: Completed section 14: Added sessions and cookies to the app. Session and cookies save at mongodb.
+
+9th commit: Completed section 15. Added authentication and hash passwords. Added CSRF protection to the app. Also added flash messages on login and signup pages.
