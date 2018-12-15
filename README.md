@@ -23,3 +23,8 @@ Made env variables and used local mongodb for the rest of the app.
 8th commit: Completed section 14: Added sessions and cookies to the app. Session and cookies save at mongodb.
 
 9th commit: Completed section 15. Added authentication and hash passwords. Added CSRF protection to the app. Also added flash messages on login and signup pages.
+
+10th commit: Sending email from app. Added nodemailer using sendGrid account.
+Added Password resetting features using Reset tokens.
+Added authorization features to the app. User has permissions to create, edit and delete ONLY products that they have made.
+
